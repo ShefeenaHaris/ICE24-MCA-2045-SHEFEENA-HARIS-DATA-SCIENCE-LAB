@@ -57,3 +57,5 @@ print("Classification Report:\n", classification_report(y_test, y_pred))
 
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy:.4f}")
+accuracy=accuracy_score(y_test,y_pred)*100
+print(f"\naccuracy:{accuracy:2f}%")
